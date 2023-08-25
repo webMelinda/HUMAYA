@@ -1,0 +1,167 @@
+.banner{
+    background:url(IMAGENES/Central/imagenCentral.png);
+    width: 100%;
+    height: auto;
+    /* align-items: center; */
+    display: flex;
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: flex-end;
+    color: antiquewhite;
+    padding: 120px 80px;
+}
+
+.contenido-banner{
+    height: 450px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    padding-right: 20px;
+
+}
+
+main{
+    background: -webkit-linear-gradient(bottom left, rgb(60, 57, 57), black);
+    color: antiquewhite;
+    text-align: center;
+}
+ul{
+    padding: 1px;
+}
+ul li {
+    list-style: none;
+}
+
+/* Presentación */
+.calidad{
+    padding: 20px;
+}
+.icons{
+    display: flex;
+    justify-content: center;
+}
+
+img.ico_calidad{
+    width: 80px;
+    margin: 15px;
+    filter: invert(0.4) sepia(1) hue-rotate(1deg);
+}
+/* Productos */
+.productos{
+    display: flex;
+}
+
+.dulce{
+    padding: 5% 10%;
+    background-color: black;
+}
+.dulce h3 {
+    color: rgb(200, 151, 114) ;
+}
+
+.dulce h5 {
+    color: rgb(200, 151, 114) ;
+}
+
+.img-dulce{
+    width: 50%;
+}
+
+.info{
+    color: rgb(200, 151, 114);
+    border-color: rgb(200, 151, 114);
+    border-width: 2px;
+    margin-top: 20px;
+}
+
+.alfajor{
+    background-color: burlywood;
+    width: 100%;
+    height: auto;
+    display: flex;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.alfajor-descripcion{
+    width: 50%;
+    padding: 5%;
+}
+
+.alfajor-descripcion h3{
+    color: rgb(165, 89, 42);
+}
+
+.alfajor-descripcion h5{
+    color: rgb(165, 89, 42);
+}
+
+.boton{
+    color: rgb(165, 89, 42);
+    border-color: rgb(165, 89, 42);
+    border-width: 2px;
+    margin-top: 20px;
+
+}
+
+.alfajor-img{
+    margin: 33px;
+    margin-left: 15%;
+}
+
+/* Contactanos */
+.contacto{
+    display: flex;
+}
+
+.contacto-img{
+    width: 30%;
+    margin: 0px 150px 0px 0px;
+
+}
+
+.form{
+    /* margin-left: 15%; */
+    padding: 2% 10%;
+    justify-content: center;
+}
+
+/* Recetas */
+.recetas{
+    display: flex;
+    padding: 3% 5%;
+    justify-content: center;
+}
+
+.card{
+    margin: 2%;
+    background-color: burlywood;
+}
+
+.card-title{
+    color: rgb(165, 89, 42);
+}
+/* Prefooter */
+.prefooter{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* .footer-element{
+    display: flex; 
+     flex-direction: column;
+    
+}  */
+
+.redes{
+    color: antiquewhite;
+    font-size: large;
+}
+/* Footer */
+footer{
+    background-color: burlywood;
+    color: antiquewhite;
+    text-align: center;
+}
