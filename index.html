@@ -60,16 +60,31 @@
         <section>
             <div class="calidad">
                 <h4>La mejor calidad para vos</h4>
-                <div class="icons">
+                <ul class="calidad-items">
+                    <li>
+                        <img src="IMAGENES/icons/organic2.png" alt="organico" class="ico_calidad">
+                        <p>100% ORGÁNICO<p>
+                    </li>
+                    <li>
+                        <img src="IMAGENES/icons/sin_tacc2.png" alt="sin tacc" class="ico_calidad">
+                        <p>SIN TACC</p>
+                    </li>
+                    <li>
+                        <img src="IMAGENES/icons/sin_aditivos.png" alt="sin conservantes" class="ico_calidad">
+                        <p>SIN CONSERVANTES</p>
+                    </li>
+                </ul>
+                <!-- <div class="icons">
                     <img src="IMAGENES/icons/organic2.png" alt="organico" class="ico_calidad">
                     <img src="IMAGENES/icons/sin_tacc2.png" alt="sin tacc" class="ico_calidad">
                     <img src="IMAGENES/icons/sin_aditivos.png" alt="sin conservantes" class="ico_calidad">
-                </div>
+                </div> -->
             </div>
         </section>
         <!-- Productos -->
         <section>
-            <h3>PRODUCTOS</h3>
+            <div class="titles"><h3>Productos</h3></div>
+            
             <div class="productos">
                 <img src="IMAGENES/Productos/Producto1.png" alt="dulce de leche" class="img-dulce">
                 <div class="dulce">
@@ -113,8 +128,8 @@
         </section>
         <!-- Contactanos -->
         <section>
-            <div>
-                <h4>Contactanos</h4>
+            <div class="titles">
+                <h3>Contactanos</h3>
             </div>
             <div class="contacto">
                 <div class="contacto-img">
@@ -123,19 +138,23 @@
                 <div class="form">
                     <p>Dejanos tu consulta y nuestro personal se pondrá en contácto a la brevedad</p>
                     <form>
-                        <div class="mb-3">
-                          <label for="exampleInputEmail1" class="form-label">Email address</label>
-                          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                          <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                        <div class="inputs">
+                            <div class="mb-3">
+                                <label for="exampleInputName" class="form-label">Nombre:</label>
+                                <input type="text" class="form-control" id="exampleInputName" aria-describedby="nameHelp">
+                              </div>
+                            <div class="mb-3">
+                              <label for="exampleInputEmail1" class="form-label">Email address:</label>
+                              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleFormControlTextarea1" class="form-label">Consulta:</label>
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                            </div>
+
                         </div>
-                        <div class="mb-3">
-                          <label for="exampleInputPassword1" class="form-label">Password</label>
-                          <input type="password" class="form-control" id="exampleInputPassword1">
-                        </div>
-                        <div class="mb-3 form-check">
-                          <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                          <label class="form-check-label" for="exampleCheck1">Check me out</label>
-                        </div>
+                        
+                        
                         <button type="submit" class="btn btn-outline-light boton">Enviar</button>
                       </form>
                 </div>
@@ -146,8 +165,8 @@
 
         <!-- Recentas -->
         <section>
-            <div>
-                <h4>Recetas</h4>
+            <div class="titles">
+                <h3>Recetas</h3>
             </div>
             <div class="recetas">
                 <div class="card" style="width: 18rem;">
@@ -179,8 +198,8 @@
         </section>
         <!-- Encontranos en -->
         <section>
-            <div>
-                <h4>Encontranos en</h4>
+            <div class="titles">
+                <h3>Encontranos en</h3>
             </div>
             <div>
                 

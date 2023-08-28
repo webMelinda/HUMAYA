@@ -11,16 +11,22 @@
     padding: 120px 80px;
 }
 
+
+
 .contenido-banner{
     height: 450px;
     width: 50%;
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
+    /* align-items: flex-end; */
     justify-content: center;
     padding-right: 20px;
 
 }
+
+
+
+
 
 main{
     background: -webkit-linear-gradient(bottom left, rgb(60, 57, 57), black);
@@ -34,15 +40,20 @@ ul li {
     list-style: none;
 }
 
+.titles{
+    padding: 1rem;
+}
+
 /* Presentación */
 .calidad{
     padding: 20px;
 }
-.icons{
+
+.calidad-items{
     display: flex;
     justify-content: center;
+    color: rgba(185, 156, 120, 0.827);
 }
-
 img.ico_calidad{
     width: 80px;
     margin: 15px;
@@ -103,6 +114,7 @@ img.ico_calidad{
     border-color: rgb(165, 89, 42);
     border-width: 2px;
     margin-top: 20px;
+   
 
 }
 
@@ -124,9 +136,15 @@ img.ico_calidad{
 
 .form{
     /* margin-left: 15%; */
-    padding: 2% 10%;
-    justify-content: center;
+    padding: 0% 10%;
+    justify-content: center;   
 }
+
+.inputs{
+    text-align: left;
+}
+
+
 
 /* Recetas */
 .recetas{
@@ -164,4 +182,21 @@ footer{
     background-color: burlywood;
     color: antiquewhite;
     text-align: center;
+}
+
+@media(max-width:790px){
+    .banner{
+        padding: 80px 60px;
+    }
+    .contenido-banner{
+        width: 70%;
+    }
+    .contacto{
+        justify-content: flex-end;
+    }
+
+    /*.contacto-img{
+        width: 100px;
+        height: auto;
+    } */
 }
