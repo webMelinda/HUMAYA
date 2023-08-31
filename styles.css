@@ -135,7 +135,7 @@ img.ico_calidad{
 }
 
 .form{
-    /* margin-left: 15%; */
+    
     padding: 0% 10%;
     justify-content: center;   
 }
@@ -149,6 +149,7 @@ img.ico_calidad{
 /* Recetas */
 .recetas{
     display: flex;
+    flex-wrap: wrap;
     padding: 3% 5%;
     justify-content: center;
 }
@@ -167,13 +168,8 @@ img.ico_calidad{
     justify-content: space-evenly;
 }
 
-/* .footer-element{
-    display: flex; 
-     flex-direction: column;
-    
-}  */
 
-.redes{
+.red{
     color: antiquewhite;
     font-size: large;
 }
@@ -195,8 +191,125 @@ footer{
         justify-content: flex-end;
     }
 
-    /*.contacto-img{
-        width: 100px;
-        height: auto;
-    } */
+    .contacto-img{
+        visibility:hidden;
+        display: none;
+    }
+
+    .productos{
+        font-size: small;
+    }
+
+    .productos h5 {
+        font-size:medium;
+    }
+
+    .productos h3 {
+        font-size: large;
+    }
+
+    .info{
+        font-size: small;
+    }
+
+    .alfajor{
+        font-size: small;
+    }
+
+    .alfajor h5 {
+        font-size:medium;
+    }
+
+    .alfajor h3 {
+        font-size: large;
+    }
+
+    .alfajor-descripcion .boton{
+        font-size: small;
+    }
+
+    
+}
+
+@media(max-width:425px){
+    .banner{
+        justify-content: center;
+        padding: 5px;
+    }
+
+    .contenido-banner p{
+        padding: 3px;
+        background-color: rgba(165, 89, 42, 0.445);
+        border-radius: 10px;
+    }
+
+    .calidad{
+        font-size: small;
+    }
+    .productos{
+        flex-direction: column;
+    }
+
+    .img-dulce{
+        width: 100%;
+        height: 20%;
+        align-self: center;
+        
+    }
+
+    .sin-azucar{
+        flex-direction: column-reverse;
+    }
+    .alfajor-img{
+        margin: 0%;
+        align-self: center;
+    }
+    .imgAlfajor{
+        width: 200px;
+    }
+
+    
+    .prefooter{
+        flex-direction: column;
+    }
+
+    .footer-element{
+        font-size: small;
+    }
+
+    .menu{
+        visibility: hidden;
+        display: none;
+    }
+
+
+}
+
+@media(max-width:320px){
+    h1{
+        font-size: x-large;
+    }
+
+    .contenido-banner{
+        font-size: small;
+        width: 90%;
+    }
+    .banner{
+        height: 400px;
+    }
+
+    img.ico_calidad{
+        width: 60px;
+    }
+
+    .alfajor{
+        flex-direction: column-reverse;
+        padding: 5px;
+    }
+
+    .alfajor-descripcion{
+        width: 100%;
+    }
+
+
 }
