@@ -1,3 +1,31 @@
+
+main{
+    background: -webkit-linear-gradient(bottom left, rgb(60, 57, 57), black);
+    color: antiquewhite;
+    text-align: center;
+}
+
+
+ul{
+    padding: 1px;
+}
+ul li {
+    list-style: none;
+}
+
+.titles{
+    padding: 1rem;
+}
+
+/* Nav */
+
+.logo{
+    display: flex;
+    height: 2em;
+    width: 2em;
+}
+
+/* Banner */
 .banner{
     background:url(IMAGENES/Central/imagenCentral.png);
     width: 100%;
@@ -5,7 +33,7 @@
     /* align-items: center; */
     display: flex;
     background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     justify-content: flex-end;
     color: antiquewhite;
     padding: 120px 80px;
@@ -24,26 +52,6 @@
 
 }
 
-
-
-
-
-main{
-    background: -webkit-linear-gradient(bottom left, rgb(60, 57, 57), black);
-    color: antiquewhite;
-    text-align: center;
-}
-ul{
-    padding: 1px;
-}
-ul li {
-    list-style: none;
-}
-
-.titles{
-    padding: 1rem;
-}
-
 /* Presentación */
 .calidad{
     padding: 20px;
@@ -57,7 +65,7 @@ ul li {
 img.ico_calidad{
     width: 80px;
     margin: 15px;
-    filter: invert(0.4) sepia(1) hue-rotate(1deg);
+    filter: invert(0.4) sepia(100) contrast(150%) hue-rotate(1deg);
 }
 /* Productos */
 .productos{
@@ -150,13 +158,15 @@ img.ico_calidad{
 .recetas{
     display: flex;
     flex-wrap: wrap;
-    padding: 3% 5%;
     justify-content: center;
 }
 
 .card{
+    display:flex;
     margin: 2%;
     background-color: burlywood;
+    width: 20em;
+    
 }
 
 .card-title{
@@ -231,7 +241,7 @@ footer{
     
 }
 
-@media(max-width:425px){
+@media(max-width:670px){
     .banner{
         justify-content: center;
         padding: 5px;
@@ -310,6 +320,4 @@ footer{
     .alfajor-descripcion{
         width: 100%;
     }
-
-
 }

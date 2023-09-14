@@ -17,8 +17,8 @@
             <div class="container-fluid">
                 <div class="d-flex align-items-center">
                     <a class="navbar-brand" href="#">
-                        <img src="IMAGENES/Logo/HconDulce100x100.png" alt="" width="48" height="48" class="d-inline-block align-text-top">
-                        <a class="navbar-brand colorTituloLogo" href="#">HUMAYA</a>
+                        <img src="IMAGENES/Logo/HconDulce100x100.png" alt="" class="logo">
+                        <a class="navbar-brand" href="#">HUMAYA</a>
                     </a>
                 </div>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -45,8 +45,8 @@
         </nav>
 
         <div class="banner">
-            <div class="contenido-banner p-5">
-                <h1>DULCES DEL ALMA</h1>
+            <div class="contenido-banner">
+                <h1 class="text-shadow">DULCES DEL ALMA</h1>
                 <p class="text-start">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni esse neque numquam! Nisi adipisci dolor iusto omnis eius odit laborum suscipit, nulla saepe reiciendis similique eveniet, minima maxime sint perspiciatis.</p>
                 <button type="button" class="btn btn-dark mx-auto mt-3">CONOCENOS</button>
             </div>
@@ -74,11 +74,7 @@
                         <p>SIN CONSERVANTES</p>
                     </li>
                 </ul>
-                <!-- <div class="icons">
-                    <img src="IMAGENES/icons/organic2.png" alt="organico" class="ico_calidad">
-                    <img src="IMAGENES/icons/sin_tacc2.png" alt="sin tacc" class="ico_calidad">
-                    <img src="IMAGENES/icons/sin_aditivos.png" alt="sin conservantes" class="ico_calidad">
-                </div> -->
+               
             </div>
         </section>
         <!-- Productos -->
@@ -144,7 +140,7 @@
                                 <input type="text" class="form-control" id="exampleInputName" aria-describedby="nameHelp">
                               </div>
                             <div class="mb-3">
-                              <label for="exampleInputEmail1" class="form-label">Email address:</label>
+                              <label for="exampleInputEmail1" class="form-label">Email:</label>
                               <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
                             </div>
                             <div class="mb-3">
@@ -164,12 +160,12 @@
         </section>
 
         <!-- Recentas -->
-        <section id="recetas">
+        <section >
             <div class="titles">
                 <h3>Recetas</h3>
             </div>
-            <div class="recetas">
-                <div class="card" style="width: 18rem;">
+            <div class="recetas" id="recetas">
+                <!-- <div class="card" style="width: 18rem;">
                     <img src="IMAGENES/Receta/deliciosas-galletas-mesa.jpg" class="card-img-top" alt="galletas">
                     <div class="card-body">
                       <h5 class="card-title">Galletas choco-chips</h5>
@@ -192,7 +188,7 @@
                       <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                       <a href="#" class="btn btn-outline-light boton">Preparación</a>
                     </div>
-                </div>
+                </div> -->
             </div>
 
         </section>
@@ -250,7 +246,7 @@
                     <h5>UBICACIÓN</h5>
                     <ul>
                         <li>Monte de Oca 2356, CABA</li>
-                        <li><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3282.0400148612857!2d-58.37345652346132!3d-34.65369236014054!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a334aab78be889%3A0xf708c66dbb48448a!2sAv.%20Montes%20de%20Oca%202353%2C%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1692928462117!5m2!1ses-419!2sar" width="200" height="100" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></li>
+                        <li><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3282.0400148612857!2d-58.37345652346132!3d-34.65369236014054!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a334aab78be889%3A0xf708c66dbb48448a!2sAv.%20Montes%20de%20Oca%202353%2C%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1692928462117!5m2!1ses-419!2sar" class="map " allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></li>
                     </ul>
                     
     
@@ -268,6 +264,7 @@
 
 <!--Scripts de Bootstrap-->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script src="app.js"></script>
 </body>
 </html>
 
